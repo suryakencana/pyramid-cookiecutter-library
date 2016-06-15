@@ -1,0 +1,15 @@
+
+
+
+__all__ = ('__version__',)
+__version__ = get_version()
+
+
+def includeme(config):
+    """
+    Initialize the model for a Pyramid library.
+
+    Activate this setup using ``config.include('{{ cookiecutter.repo_name }}')``.
+
+    """
+    settings = config.get_settings()
