@@ -42,5 +42,5 @@ msg = dedent(
 if VIRTUALENV_AVAILABLE:
     msg += "\nTo run the generated application, cd to %s and run:" % (
         '{{ cookiecutter.repo_name }}')
-    msg += "\nbin/pserve development.ini"
+    msg += "\nenv/bin/pserve development.ini"
 print(msg)
